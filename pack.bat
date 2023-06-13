@@ -1,0 +1,1 @@
+wasm-pack build --target web && precompress pkg --brotli --gzip --zstd
