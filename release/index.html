@@ -16,7 +16,7 @@
 <body style="margin: 0; padding: 0;">
   <div id="wasm" style="height: 100vh; width: 100%; overflow: hidden;">
     <script type="module">
-      import init from "./pkg/presentation_wasm.js";
+      import init from "./wasm/presentation_wasm.js";
       init().then(() => {
         console.log("WASM Loaded");
       });
